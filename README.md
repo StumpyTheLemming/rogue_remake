@@ -6,4 +6,6 @@
  
   I attempted to make a basic copy of Rogue but due to time constraints was only able to make a simpler reproduction. My version has similar aesthetics to later versions of the original. It procedurally generates floors of rooms connected by hallways. It has monsters to fight with turn-based combat.
  
+ ![alt text](https://github.com/StumpyTheLemming/rogue_remake/blob/main/4.PNG)
+ 
   There are many things that I had to leave out of my version. It is missing: varieties of monsters, items and an inventory, scaling difficulty, player statistics, fog of war, and a win state. Besides that there are several major ways the parts of Rouge the I did implement differ from the original. The screen size of TIC-80 is much smaller than that of most unix machines in 1980 so there is a smaller space to explore in each floor. My dungeon generation is also different. I could not find the algorithm that Michael Toy and Glenn Wichman used in the original so I used Binary Space Partitioning (http://www.roguebasin.com/index.php?title=Basic_BSP_Dungeon_generation). This method uses binary trees to randomly split the space in half repeatedly to draw rooms and then connects them by drawing a path between the center of the spaces defined by sister nodes. This method ensures that all the rooms are connected but produces a very different result than is seen in the original rogue. 
