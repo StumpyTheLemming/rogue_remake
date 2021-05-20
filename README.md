@@ -13,7 +13,9 @@
 The game can be played at https://stumpythelemming.github.io/rogue_remake/
 Use the vi keys to move:
 y k u
+
 h   l
+
 b j n
 
 and . to move down when on the stairs
