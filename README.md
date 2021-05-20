@@ -16,7 +16,7 @@ Use the vi keys to move:
 
 y k u
 
-h   l
+h _ l
 
 b j n
 
